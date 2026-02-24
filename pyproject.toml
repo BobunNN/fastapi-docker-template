@@ -15,11 +15,5 @@ dev = [
 
 [project]
 authors = [
-  {name = "Pradyun Gedam", email = "pradyun@example.com"},
-  {name = "Tzu-Ping Chung", email = "tzu-ping@example.com"},
-  {name = "Another person"},
-  {email = "different.person@example.com"},
-]
-maintainers = [
-  {name = "Brett Cannon", email = "brett@example.com"}
+  {name = "Nhan Nguyen"},
 ]

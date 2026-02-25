@@ -17,6 +17,7 @@ Or see the [uv installation guide](https://github.com/astral-sh/uv#installation)
 - Dockerfile for development and production
 - uv for fast dependency management
 - Example Makefile for build and up commands
+- Pre-commit hooks for linting/formatting
 
 ### Quick Start
 1. Build the Docker image:
@@ -29,6 +30,13 @@ Or see the [uv installation guide](https://github.com/astral-sh/uv#installation)
 	```
 
 The app will be available at http://localhost:8080.
+
+#### Enable Pre-commit Hooks
+After cloning the repo, run:
+```sh
+pre-commit install
+```
+This will enable automatic linting and formatting on commit.
 
 ### Project Structure
 - `src/app/main.py`: FastAPI app entry point

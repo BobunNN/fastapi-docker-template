@@ -9,7 +9,7 @@ on:
 
 jobs:
   Code-quality-check:
-    runs-on: unbuntu-latest
+    runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v5
 
